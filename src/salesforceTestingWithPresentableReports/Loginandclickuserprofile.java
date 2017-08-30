@@ -1,9 +1,9 @@
 package salesforceTestingWithPresentableReports;
 
 /*Author: Abhas Kumar
- * Module Name: loginTest
- * Project Description: Read test values from excel and perform Login test action and then logout
- * Date:August 23,2017
+ * Module Name: Loginandclickuserprofile
+ * Project Description: Read test values from excel and perform Login test action and then logout and displays user profile options
+ * Date:August 29,2017
  */
 
 import jxl.*;

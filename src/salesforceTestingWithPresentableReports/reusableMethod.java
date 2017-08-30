@@ -1,5 +1,9 @@
 package salesforceTestingWithPresentableReports;
-
+/*Author: Abhas Kumar
+ * Module Name: reusableMethod
+ * Project Description: Defines all the action and variables to generate and update report.  Also the action for data entry in text field and click action described
+ * Date:August 29,2017
+ */
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -46,7 +50,7 @@ public class reusableMethod {
 	 * Method Name: enterDataForMethodSetByFields
 	 * Method Description: Read test values from excel and perform test action
 	 * Fields: textFieldValue---> text data that user will enter in respective field. ; objName---> name of object that represent that field.
-	 * Date:August 23,2017
+	 * Date:August 29,2017
 	 */
 	
 
@@ -70,7 +74,7 @@ public class reusableMethod {
 	 * Method Name: click
 	 * Method Description: Perform click operation
 	 * Fields: loginClick---> name of click button.
-	 * Date:August 23,2017
+	 * Date:August 29,2017
 	 */
 	public static void click (WebElement obj , String loginClick) throws IOException
 	{
@@ -88,7 +92,12 @@ public class reusableMethod {
 		}
 	}
 
-	
+	/*Author: Abhas Kumar
+	 * Method Name: startReport
+	 * Method Description: Generates report
+	 * Fields: scriptName---> name of autonation script, ReportPath---> path of report on local directory.
+	 * Date:August 29,2017
+	 */
 	public static void startReport(String scriptName, String ReportsPath) throws IOException{
 
 		String strResultPath = null;
